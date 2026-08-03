@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 10px;
+    background-color: #f16969;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.header-img{
+    width: 24px;
+}
+
+.header-span{
+    display: block;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    font-family: Inter;
+}
+
+/* Main */
+
+article{
+    padding-inline: 20px;
+}
+
+.main-container{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.image-container{
+    width: 125px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-right: 19px;
+}
+
+.main-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-container-three{
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.marker{
+    margin-right: 5px;
+    width: 15px;
+}
+
+.country-name{
+    margin-right: 5px;
+    font-size: 0.75rem;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+}
+
+.main-container-three > a{
+    font-size: 0.8rem;
+}
+
+.main-container-two > h1{
+    margin-bottom: 8px;
+    font-family: Inter;
+    font-size: 1.4rem;
+    letter-spacing: 0.01em;
+}
+
+.span-date{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.main-container-two > p{
+    letter-spacing: 0.02em;
+    font-size: 0.95rem;
+    line-height: 1.2em;
+}
